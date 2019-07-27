@@ -20,7 +20,7 @@
 ## It is mixture of Laravel Forms for Web and APIs
 
 ## User Register API:  
-`API_URL: http://localhost/xfilms-test/api/v1/register
+```API_URL: http://localhost/xfilms-test/api/v1/register
 METHOD: POST
 REQUEST_TYPE: JSON
 PARAMS: 
@@ -45,10 +45,10 @@ SAMPLE_RESPONSE_DATA:
     },
     "status": 200
 }
-`
+```
 
 ## User Login API:  
-`API_URL: http://localhost/xfilms-test/api/v1/login
+```API_URL: http://localhost/xfilms-test/api/v1/login
 METHOD: POST
 REQUEST_TYPE: JSON
 PARAMS: 
@@ -72,10 +72,10 @@ SAMPLE_RESPONSE_DATA:
     },
     "status": 200
 }
- `
+ ```
 ## Films API
 
- `API_URL:  http://localhost/xfilms-test/api/v1/films
+ ```API_URL:  http://localhost/xfilms-test/api/v1/films
 METHOD: GET
 REQUEST_TYPE: JSON
 SAMPLE_RESPONSE_DATA: 
@@ -126,7 +126,7 @@ SAMPLE_RESPONSE_DATA:
     },
     "status": 200
 }
-`
+```
 
 
 
