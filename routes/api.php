@@ -20,7 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group([ 'middleware' => 'api', 'prefix' => '/v1' ], function ($router) {
     Route::post('register', 'ApiController\UserController@register');
     Route::post('login', 'ApiController\UserController@login'); 
-    Route::GET('films', 'ApiController\FilmsController@index');
-    Route::post('comment', 'ApiController\UserController@update')->middleware('auth:api');
+    Route::get('films', 'ApiController\FilmsController@index');
+    Route::post('update', 'ApiController\UserController@update')->middleware('auth:api');
 });
    
