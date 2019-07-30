@@ -14,7 +14,7 @@
 
 Auth::routes();
 
-Route::get('/', 'FilmsController@index')->name('allFilms');
+Route::get('/', 'FilmsController@index')->name('films');
 Route::resource('films', 'FilmsController');
 
 Route::post('/films/{film_id}/comment', 'FilmsController@comment')->middleware('auth');
